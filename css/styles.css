@@ -1,0 +1,85 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+header, #content {
+    color:white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+#about, #home, #contact {
+    border-bottom: 1px solid orange;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+footer {
+    font-size: 8pt;
+}
+
+nav a {    /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;          /* by default, links are blue */    
+}
+
+#me, #welcomeText {
+    float:left;
+    color: white;
+}
+
+#me {
+    padding-left: 400px;
+}
+
+footer {
+    clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 400px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+#contactme {
+    padding-left: 380px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
